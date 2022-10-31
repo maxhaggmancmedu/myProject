@@ -1,0 +1,25 @@
+html {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #2fe6de;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header,
+footer {
+    padding: 48px;
+    background-color: #89043D;
+}
+
+main {
+    flex-grow: 1;
+}
